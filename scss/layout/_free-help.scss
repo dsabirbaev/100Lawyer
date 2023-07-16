@@ -1,0 +1,930 @@
+
+#free-help{
+    width: 100%;
+    margin-top: 80px;
+
+    .wrapper{
+        .free-help__title{
+            @include font-style(32px, $ff-OpenSansBold, $primary-black);
+            letter-spacing: -0.96px;
+            margin-bottom: 15px;
+        }
+        .free-help__text{
+            @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+            line-height: 25.6px;
+            margin-bottom: 30px;
+        }
+        .free-help__cards{
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            margin-bottom: 80px;
+        }
+        .free-help__card{
+            width: 270px;
+            height: 180px;
+            border-radius: 20px;
+            border: 1px solid $primary-grey;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            &:hover{
+                box-shadow: 0 0 10px  silver;
+            }
+            img{
+                margin-bottom: 15px;
+            }
+            &--header{
+                &-text{
+                    @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                    margin-bottom: 15px;
+                }
+                &-tel{
+                    @include font-style(20px, $ff-OpenSansBold, $primary-black);
+                }
+            }
+            &--btn{
+                @include font-style(16px, $ff-OpenSansSemiBold, $color-green);
+            }
+        }
+
+        .free-help__banner{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: $color-green;
+            border-radius: 20px;
+            padding-right: 50px;
+            &--img{
+
+            }
+            &--info{
+                &-text{
+                    @include font-style(24px, $ff-OpenSansSemiBold, $color-white);
+                    margin-bottom: 10px;
+                }
+                &-tel{
+                    @include font-style(42px, $ff-OpenSansBold, $color-white);
+                    letter-spacing: -1.26px;
+                }
+            }
+            &--lawyers{
+                @include font-style(18px, $ff-OpenSansSemiBold, $color-white);
+                p{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    #free-help{
+        width: 100%;
+        margin-top: 80px;
+    
+        .wrapper{
+            .free-help__title{
+                @include font-style(32px, $ff-OpenSansBold, $primary-black);
+                letter-spacing: -0.96px;
+                margin-bottom: 15px;
+            }
+            .free-help__text{
+                @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                line-height: 25.6px;
+                margin-bottom: 30px;
+            }
+            .free-help__cards{
+                display: grid;
+                grid-template-columns: repeat(4, minmax(0, 1fr));
+                margin-bottom: 80px;
+            }
+            .free-help__card{
+                width: 250px;
+                height: 180px;
+                border-radius: 20px;
+                border: 1px solid $primary-grey;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover{
+                    box-shadow: 0 0 10px  silver;
+                }
+                img{
+                    margin-bottom: 15px;
+                }
+                &--header{
+                    &-text{
+                        @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                        margin-bottom: 15px;
+                    }
+                    &-tel{
+                        @include font-style(20px, $ff-OpenSansBold, $primary-black);
+                    }
+                }
+                &--btn{
+                    @include font-style(16px, $ff-OpenSansSemiBold, $color-green);
+                }
+            }
+    
+            .free-help__banner{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: $color-green;
+                border-radius: 20px;
+                padding-right: 10px;
+                &--img{
+                    
+                }
+                &--info{
+                    &-text{
+                        @include font-style(20px, $ff-OpenSansSemiBold, $color-white);
+                        margin-bottom: 10px;
+                    }
+                    &-tel{
+                        @include font-style(35px, $ff-OpenSansBold, $color-white);
+                        letter-spacing: -1.26px;
+                    }
+                }
+                &--lawyers{
+                    @include font-style(16px, $ff-OpenSansSemiBold, $color-white);
+                    p{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1000px){
+    #free-help{
+        width: 100%;
+        margin-top: 60px;
+    
+        .wrapper{
+            .free-help__title{
+                @include font-style(32px, $ff-OpenSansBold, $primary-black);
+                letter-spacing: -0.96px;
+                margin-bottom: 15px;
+            }
+            .free-help__text{
+                @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                line-height: 25.6px;
+                margin-bottom: 30px;
+            }
+            .free-help__cards{
+                display: grid;
+                grid-template-columns: repeat(4, minmax(0, 1fr));
+                margin-bottom: 80px;
+            }
+            .free-help__card{
+                width: 220px;
+                height: 180px;
+                border-radius: 20px;
+                border: 1px solid $primary-grey;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover{
+                    box-shadow: 0 0 10px  silver;
+                }
+                img{
+                    margin-bottom: 15px;
+                }
+                &--header{
+                    &-text{
+                        @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                        margin-bottom: 15px;
+                    }
+                    &-tel{
+                        @include font-style(20px, $ff-OpenSansBold, $primary-black);
+                    }
+                }
+                &--btn{
+                    @include font-style(16px, $ff-OpenSansSemiBold, $color-green);
+                }
+            }
+    
+            .free-help__banner{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: $color-green;
+                border-radius: 20px;
+                padding-right: 10px;
+                &--img{
+                    
+                }
+                &--info{
+                    &-text{
+                        @include font-style(20px, $ff-OpenSansSemiBold, $color-white);
+                        margin-bottom: 10px;
+                    }
+                    &-tel{
+                        @include font-style(35px, $ff-OpenSansBold, $color-white);
+                        letter-spacing: -1.26px;
+                    }
+                }
+                &--lawyers{
+                    @include font-style(16px, $ff-OpenSansSemiBold, $color-white);
+                    p{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
+
+@media only screen and (max-width: 950px){
+    #free-help{
+        width: 100%;
+        margin-top: 60px;
+    
+        .wrapper{
+            .free-help__title{
+                @include font-style(32px, $ff-OpenSansBold, $primary-black);
+                letter-spacing: -0.96px;
+                margin-bottom: 15px;
+            }
+            .free-help__text{
+                @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                line-height: 25.6px;
+                margin-bottom: 30px;
+            }
+            .free-help__cards{
+                display: grid;
+                grid-template-columns: repeat(4, minmax(0, 1fr));
+                margin-bottom: 80px;
+            }
+            .free-help__card{
+                width: 200px;
+                height: 180px;
+                border-radius: 20px;
+                border: 1px solid $primary-grey;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover{
+                    box-shadow: 0 0 10px  silver;
+                }
+                img{
+                    margin-bottom: 15px;
+                }
+                &--header{
+                    &-text{
+                        @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                        margin-bottom: 15px;
+                    }
+                    &-tel{
+                        @include font-style(20px, $ff-OpenSansBold, $primary-black);
+                    }
+                }
+                &--btn{
+                    @include font-style(16px, $ff-OpenSansSemiBold, $color-green);
+                }
+            }
+    
+            .free-help__banner{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: $color-green;
+                border-radius: 20px;
+                padding-right: 10px;
+                &--img{
+                    
+                }
+                &--info{
+                    &-text{
+                        @include font-style(18px, $ff-OpenSansSemiBold, $color-white);
+                        margin-bottom: 10px;
+                    }
+                    &-tel{
+                        @include font-style(36px, $ff-OpenSansBold, $color-white);
+                        letter-spacing: -1.26px;
+                    }
+                }
+                &--lawyers{
+                    @include font-style(16px, $ff-OpenSansSemiBold, $color-white);
+                    p{
+                        margin-bottom: 10px;
+                    }
+                    img{
+                        width: 180px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
+@media only screen and (max-width: 850px){
+    #free-help{
+        width: 100%;
+        margin-top: 60px;
+    
+        .wrapper{
+            .free-help__title{
+                @include font-style(32px, $ff-OpenSansBold, $primary-black);
+                letter-spacing: -0.96px;
+                margin-bottom: 15px;
+            }
+            .free-help__text{
+                @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                line-height: 25.6px;
+                margin-bottom: 30px;
+            }
+            .free-help__cards{
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                margin-bottom: 80px;
+                row-gap: 20px;
+                place-items: center;
+            }
+            .free-help__card{
+                width: 270px;
+                height: 180px;
+                border-radius: 20px;
+                border: 1px solid $primary-grey;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover{
+                    box-shadow: 0 0 10px  silver;
+                }
+                img{
+                    margin-bottom: 15px;
+                    
+                }
+                &--header{
+                    &-text{
+                        @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                        margin-bottom: 15px;
+                    }
+                    &-tel{
+                        @include font-style(20px, $ff-OpenSansBold, $primary-black);
+                    }
+                }
+                &--btn{
+                    @include font-style(16px, $ff-OpenSansSemiBold, $color-green);
+                }
+            }
+    
+            .free-help__banner{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: $color-green;
+                border-radius: 20px;
+                padding-right: 10px;
+                &--img{
+                    width: 280px;
+                }
+                &--info{
+                    &-text{
+                        @include font-style(16px, $ff-OpenSansSemiBold, $color-white);
+                        margin-bottom: 10px;
+                    }
+                    &-tel{
+                        @include font-style(25px, $ff-OpenSansBold, $color-white);
+                        letter-spacing: -1.26px;
+                    }
+                }
+                &--lawyers{
+                    @include font-style(16px, $ff-OpenSansSemiBold, $color-white);
+                    p{
+                        margin-bottom: 10px;
+                    }
+                    img{
+                        width: 140px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 780px){
+    #free-help{
+        width: 100%;
+        margin-top: 60px;
+    
+        .wrapper{
+            .free-help__title{
+                @include font-style(32px, $ff-OpenSansBold, $primary-black);
+                letter-spacing: -0.96px;
+                margin-bottom: 15px;
+            }
+            .free-help__text{
+                @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                line-height: 25.6px;
+                margin-bottom: 30px;
+            }
+            .free-help__cards{
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                margin-bottom: 80px;
+                row-gap: 20px;
+                place-items: center;
+            }
+            .free-help__card{
+                width: 270px;
+                height: 180px;
+                border-radius: 20px;
+                border: 1px solid $primary-grey;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover{
+                    box-shadow: 0 0 10px  silver;
+                }
+                img{
+                    margin-bottom: 15px;
+                    
+                }
+                &--header{
+                    &-text{
+                        @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                        margin-bottom: 15px;
+                    }
+                    &-tel{
+                        @include font-style(20px, $ff-OpenSansBold, $primary-black);
+                    }
+                }
+                &--btn{
+                    @include font-style(16px, $ff-OpenSansSemiBold, $color-green);
+                }
+            }
+    
+            .free-help__banner{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: $color-green;
+                border-radius: 20px;
+                padding-right: 10px;
+                &--img{
+                    width: 230px;
+                    
+                }
+                &--info{
+                    &-text{
+                        @include font-style(16px, $ff-OpenSansSemiBold, $color-white);
+                        margin-bottom: 10px;
+                    }
+                    &-tel{
+                        @include font-style(25px, $ff-OpenSansBold, $color-white);
+                        letter-spacing: -1.26px;
+                    }
+                }
+                &--lawyers{
+                    @include font-style(16px, $ff-OpenSansSemiBold, $color-white);
+                    p{
+                        margin-bottom: 10px;
+                    }
+                    img{
+                        width: 140px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+    #free-help{
+        width: 100%;
+        margin-top: 60px;
+    
+        .wrapper{
+            .free-help__title{
+                @include font-style(32px, $ff-OpenSansBold, $primary-black);
+                letter-spacing: -0.96px;
+                margin-bottom: 15px;
+            }
+            .free-help__text{
+                @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                line-height: 25.6px;
+                margin-bottom: 30px;
+            }
+            .free-help__cards{
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                margin-bottom: 80px;
+                row-gap: 20px;
+                place-items: center;
+            }
+            .free-help__card{
+                width: 220px;
+                height: 180px;
+                border-radius: 20px;
+                border: 1px solid $primary-grey;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover{
+                    box-shadow: 0 0 10px  silver;
+                }
+                img{
+                    margin-bottom: 15px;
+                    
+                }
+                &--header{
+                    &-text{
+                        @include font-style(16px, $ff-OpenSansRegular, $primary-black);
+                        margin-bottom: 15px;
+                    }
+                    &-tel{
+                        @include font-style(20px, $ff-OpenSansBold, $primary-black);
+                    }
+                }
+                &--btn{
+                    @include font-style(16px, $ff-OpenSansSemiBold, $color-green);
+                }
+            }
+    
+            .free-help__banner{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                background-color: $color-green;
+                border-radius: 20px;
+                padding-top: 10px;
+                padding-right: 10px;
+                height: 300px;
+                position: relative;
+                &--img{
+                    width: 300px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    
+                }
+                &--info{
+                    &-text{
+                        @include font-style(18px, $ff-OpenSansSemiBold, $color-white);
+                        margin-bottom: 10px;
+                    }
+                    &-tel{
+                        @include font-style(36px, $ff-OpenSansBold, $color-white);
+                        letter-spacing: -1.26px;
+                    }
+                }
+                &--lawyers{
+                    @include font-style(14px, $ff-OpenSansSemiBold, $color-white);
+                    position: absolute;
+                    left: 180px;
+                    top: 150px;
+                    p{
+                        margin-bottom: 10px;
+                    }
+                    img{
+                        width: 140px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+    #free-help{
+        width: 100%;
+        margin-top: 60px;
+    
+        .wrapper{
+            .free-help__title{
+                @include font-style(20px, $ff-OpenSansBold, $primary-black);
+                letter-spacing: -0.6px;
+                margin-bottom: 10px;
+            }
+            .free-help__text{
+                @include font-style(14px, $ff-OpenSansRegular, $primary-black);
+                line-height: 25.6px;
+                margin-bottom: 40px;
+            }
+            .free-help__cards{
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                margin-bottom: 80px;
+                row-gap: 20px;
+                place-items: center;
+            }
+            .free-help__card{
+                width: 180px;
+                height: 180px;
+                border-radius: 20px;
+                border: 1px solid $primary-grey;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover{
+                    box-shadow: 0 0 10px  silver;
+                }
+                img{
+                    margin-bottom: 15px;
+                    
+                }
+                &--header{
+                    &-text{
+                        @include font-style(14px, $ff-OpenSansRegular, $primary-black);
+                        margin-bottom: 15px;
+                    }
+                    &-tel{
+                        @include font-style(18px, $ff-OpenSansBold, $primary-black);
+                    }
+                }
+                &--btn{
+                    @include font-style(14px, $ff-OpenSansSemiBold, $color-green);
+                }
+            }
+    
+            .free-help__banner{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                background-color: $color-green;
+                border-radius: 20px;
+                padding-top: 10px;
+                padding-right: 10px;
+                height: 300px;
+                position: relative;
+                &--img{
+                    width: 300px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    
+                }
+                &--info{
+                    &-text{
+                        @include font-style(18px, $ff-OpenSansSemiBold, $color-white);
+                        margin-bottom: 10px;
+                    }
+                    &-tel{
+                        @include font-style(36px, $ff-OpenSansBold, $color-white);
+                        letter-spacing: -1.26px;
+                    }
+                }
+                &--lawyers{
+                    @include font-style(14px, $ff-OpenSansSemiBold, $color-white);
+                    position: absolute;
+                    left: 180px;
+                    top: 150px;
+                    p{
+                        margin-bottom: 10px;
+                    }
+                    img{
+                        width: 140px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
+
+@media only screen and (max-width: 420px){
+    #free-help{
+        width: 100%;
+        margin-top: 60px;
+    
+        .wrapper{
+            .free-help__title{
+                @include font-style(20px, $ff-OpenSansBold, $primary-black);
+                letter-spacing: -0.6px;
+                margin-bottom: 10px;
+            }
+            .free-help__text{
+                @include font-style(14px, $ff-OpenSansRegular, $primary-black);
+                line-height: 25.6px;
+                margin-bottom: 40px;
+            }
+            .free-help__cards{
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                margin-bottom: 80px;
+                row-gap: 20px;
+                place-items: center;
+            }
+            .free-help__card{
+                width: 150px;
+                height: 180px;
+                border-radius: 20px;
+                border: 1px solid $primary-grey;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover{
+                    box-shadow: 0 0 10px  silver;
+                }
+                img{
+                    margin-bottom: 15px;
+                    
+                }
+                &--header{
+                    &-text{
+                        @include font-style(14px, $ff-OpenSansRegular, $primary-black);
+                        margin-bottom: 15px;
+                    }
+                    &-tel{
+                        @include font-style(18px, $ff-OpenSansBold, $primary-black);
+                    }
+                }
+                &--btn{
+                    @include font-style(14px, $ff-OpenSansSemiBold, $color-green);
+                }
+            }
+    
+            .free-help__banner{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                background-color: $color-green;
+                border-radius: 20px;
+                padding-top: 10px;
+                padding-right: 10px;
+                height: 300px;
+                position: relative;
+                &--img{
+                    width: 300px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    
+                }
+                &--info{
+                    &-text{
+                        @include font-style(18px, $ff-OpenSansSemiBold, $color-white);
+                        margin-bottom: 10px;
+                    }
+                    &-tel{
+                        @include font-style(36px, $ff-OpenSansBold, $color-white);
+                        letter-spacing: -1.26px;
+                    }
+                }
+                &--lawyers{
+                    @include font-style(14px, $ff-OpenSansSemiBold, $color-white);
+                    position: absolute;
+                    left: 140px;
+                    top: 150px;
+                    p{
+                        margin-bottom: 10px;
+                    }
+                    img{
+                        width: 140px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
+
+@media only screen and (max-width: 420px){
+    #free-help{
+        width: 100%;
+        margin-top: 60px;
+    
+        .wrapper{
+            .free-help__title{
+                @include font-style(20px, $ff-OpenSansBold, $primary-black);
+                letter-spacing: -0.6px;
+                margin-bottom: 10px;
+            }
+            .free-help__text{
+                @include font-style(14px, $ff-OpenSansRegular, $primary-black);
+                line-height: 25.6px;
+                margin-bottom: 40px;
+            }
+            .free-help__cards{
+                display: grid;
+                grid-template-columns: repeat(1, minmax(0, 1fr));
+                margin-bottom: 50px;
+                row-gap: 20px;
+                place-items: center;
+            }
+            .free-help__card{
+                width: 250px;
+                height: 180px;
+                border-radius: 20px;
+                border: 1px solid $primary-grey;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover{
+                    box-shadow: 0 0 10px  silver;
+                }
+                img{
+                    margin-bottom: 15px;
+                    
+                }
+                &--header{
+                    &-text{
+                        @include font-style(14px, $ff-OpenSansRegular, $primary-black);
+                        margin-bottom: 15px;
+                    }
+                    &-tel{
+                        @include font-style(18px, $ff-OpenSansBold, $primary-black);
+                    }
+                }
+                &--btn{
+                    @include font-style(14px, $ff-OpenSansSemiBold, $color-green);
+                }
+            }
+    
+            .free-help__banner{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                background-color: $color-green;
+                border-radius: 20px;
+                padding-top: 10px;
+                padding-right: 10px;
+                height: 300px;
+                position: relative;
+                &--img{
+                    width: 300px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    
+                }
+                &--info{
+                    &-text{
+                        @include font-style(18px, $ff-OpenSansSemiBold, $color-white);
+                        margin-bottom: 10px;
+                    }
+                    &-tel{
+                        @include font-style(36px, $ff-OpenSansBold, $color-white);
+                        letter-spacing: -1.26px;
+                    }
+                }
+                &--lawyers{
+                    @include font-style(14px, $ff-OpenSansSemiBold, $color-white);
+                    position: absolute;
+                    left: 140px;
+                    top: 150px;
+                    p{
+                        margin-bottom: 10px;
+                    }
+                    img{
+                        width: 140px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
