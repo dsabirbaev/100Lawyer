@@ -53,6 +53,9 @@
                 a{
                     @include font-style(24px, $ff-OpenSansBold, $primary-green); 
                     text-decoration: underline;
+                    text-decoration-thickness: 2px;
+                    text-decoration-color: $primary-green;  
+                    text-underline-position: under;
                 }
                 p{
                     @include font-style(12px, $ff-OpenSansRegular, $primary-grey); 

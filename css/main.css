@@ -2116,6 +2116,10 @@ header .header-down .wrapper .header__user--link {
   color: #016f52;
   text-transform: none;
   text-decoration: underline;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-color: #016f52;
+          text-decoration-color: #016f52;
+  text-underline-position: under;
 }
 #intro .intro__content--connect-tel p {
   font-size: 12px;
@@ -5425,6 +5429,2565 @@ header .header-down .wrapper .header__user--link {
     font-size: 12px;
     font-family: "OpenSans-SemiBold", sans-serif;
     color: rgba(255, 255, 255, 0.5);
+    text-transform: none;
+  }
+}
+#speciality {
+  width: 100%;
+  margin-top: 80px;
+}
+#speciality .wrapper .speciality__title {
+  font-size: 32px;
+  font-family: "OpenSans-Bold", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  letter-spacing: -0.96px;
+  margin-bottom: 30px;
+}
+#speciality .wrapper .speciality__cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-bottom: 80px;
+}
+#speciality .wrapper .speciality__card {
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+}
+#speciality .wrapper .speciality__card--header {
+  font-size: 16px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-color: #016f52;
+          text-decoration-color: #016f52;
+  text-underline-position: under;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+  margin-bottom: 10px;
+}
+#speciality .wrapper .speciality__card--text {
+  font-size: 14px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  line-height: 21px;
+}
+#speciality .wrapper .speciality__question {
+  padding: 0 10px;
+  height: 200px;
+  background-color: #e5e5e5;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 80px;
+}
+#speciality .wrapper .speciality__question--title {
+  font-size: 32px;
+  font-family: "OpenSans-Bold", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  letter-spacing: -0.96px;
+  width: 295px;
+}
+#speciality .wrapper .speciality__question--form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+  margin-bottom: 22px;
+}
+#speciality .wrapper .speciality__question--form form .form-label__wrapper {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid #e5e5e5;
+}
+#speciality .wrapper .speciality__question--form form p {
+  font-size: 12px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #e5e5e5;
+  text-transform: none;
+  margin-bottom: 5px;
+}
+#speciality .wrapper .speciality__question--form form input {
+  width: 249px;
+}
+#speciality .wrapper .speciality__question--form form input::-webkit-input-placeholder {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #140A32;
+  text-transform: none;
+}
+#speciality .wrapper .speciality__question--form form input::-moz-placeholder {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #140A32;
+  text-transform: none;
+}
+#speciality .wrapper .speciality__question--form form input:-ms-input-placeholder {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #140A32;
+  text-transform: none;
+}
+#speciality .wrapper .speciality__question--form form input::-ms-input-placeholder {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #140A32;
+  text-transform: none;
+}
+#speciality .wrapper .speciality__question--form form input::placeholder {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #140A32;
+  text-transform: none;
+}
+#speciality .wrapper .speciality__question--form form button {
+  width: 207px;
+  background-color: #33836E;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 16px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  color: #FFFFFF;
+  text-transform: none;
+  transition: all 0.3s ease;
+}
+#speciality .wrapper .speciality__question--form form button:hover {
+  background-color: #81d2bc;
+  color: #FFFFFF;
+}
+#speciality .wrapper .speciality__question--form-footer {
+  font-size: 12px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: none;
+}
+#speciality .wrapper .speciality__blog--title {
+  font-size: 32px;
+  font-family: "OpenSans-Bold", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  letter-spacing: -0.96px;
+  margin-bottom: 20px;
+}
+#speciality .wrapper .speciality__blog--text {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  line-height: 25.6px;
+  margin-bottom: 30px;
+}
+#speciality .wrapper .speciality__blog--text span {
+  display: block;
+  margin-bottom: 5px;
+}
+#speciality .wrapper .speciality__blog--link {
+  background-color: #E0ECE9;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #33836E;
+  text-transform: none;
+  padding: 15px 0;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#speciality .wrapper .speciality__blog--link:hover {
+  background-color: #33836E;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1000px) {
+  #speciality {
+    width: 100%;
+    margin-top: 80px;
+  }
+  #speciality .wrapper .speciality__title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 30px;
+  }
+  #speciality .wrapper .speciality__cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    margin-bottom: 80px;
+  }
+  #speciality .wrapper .speciality__card {
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+  }
+  #speciality .wrapper .speciality__card--header {
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    -webkit-text-decoration-color: #016f52;
+            text-decoration-color: #016f52;
+    text-underline-position: under;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 15px;
+       -moz-column-gap: 15px;
+            column-gap: 15px;
+    margin-bottom: 10px;
+  }
+  #speciality .wrapper .speciality__card--text {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    line-height: 21px;
+  }
+  #speciality .wrapper .speciality__question {
+    padding: 0 10px;
+    height: 200px;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 80px;
+  }
+  #speciality .wrapper .speciality__question--title {
+    font-size: 25px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    width: 250px;
+  }
+  #speciality .wrapper .speciality__question--form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 15px;
+       -moz-column-gap: 15px;
+            column-gap: 15px;
+    margin-bottom: 22px;
+  }
+  #speciality .wrapper .speciality__question--form form .form-label__wrapper {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 16px;
+    border: 1px solid #e5e5e5;
+  }
+  #speciality .wrapper .speciality__question--form form p {
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #e5e5e5;
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #speciality .wrapper .speciality__question--form form input {
+    width: 200px;
+  }
+  #speciality .wrapper .speciality__question--form form input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input::-moz-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input:-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input::-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input::placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form button {
+    width: 200px;
+    background-color: #33836E;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    transition: all 0.3s ease;
+  }
+  #speciality .wrapper .speciality__question--form form button:hover {
+    background-color: #81d2bc;
+    color: #FFFFFF;
+  }
+  #speciality .wrapper .speciality__question--form-footer {
+    font-size: 12px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question img {
+    width: 220px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  #speciality .wrapper .speciality__blog--title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 20px;
+  }
+  #speciality .wrapper .speciality__blog--text {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    line-height: 25.6px;
+    margin-bottom: 30px;
+  }
+  #speciality .wrapper .speciality__blog--text span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  #speciality .wrapper .speciality__blog--link {
+    background-color: #E0ECE9;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #33836E;
+    text-transform: none;
+    padding: 15px 0;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  #speciality .wrapper .speciality__blog--link:hover {
+    background-color: #33836E;
+    color: #FFFFFF;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #speciality {
+    width: 100%;
+    margin-top: 80px;
+  }
+  #speciality .wrapper .speciality__title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 30px;
+  }
+  #speciality .wrapper .speciality__cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    margin-bottom: 80px;
+  }
+  #speciality .wrapper .speciality__card {
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+  }
+  #speciality .wrapper .speciality__card--header {
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    -webkit-text-decoration-color: #016f52;
+            text-decoration-color: #016f52;
+    text-underline-position: under;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 15px;
+       -moz-column-gap: 15px;
+            column-gap: 15px;
+    margin-bottom: 10px;
+  }
+  #speciality .wrapper .speciality__card--text {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    line-height: 21px;
+  }
+  #speciality .wrapper .speciality__question {
+    padding: 0 10px;
+    height: 200px;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 80px;
+  }
+  #speciality .wrapper .speciality__question--title {
+    font-size: 25px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    width: 250px;
+  }
+  #speciality .wrapper .speciality__question--form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 15px;
+       -moz-column-gap: 15px;
+            column-gap: 15px;
+    margin-bottom: 22px;
+  }
+  #speciality .wrapper .speciality__question--form form .form-label__wrapper {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 16px;
+    border: 1px solid #e5e5e5;
+  }
+  #speciality .wrapper .speciality__question--form form p {
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #e5e5e5;
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #speciality .wrapper .speciality__question--form form input {
+    width: 200px;
+  }
+  #speciality .wrapper .speciality__question--form form input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input::-moz-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input:-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input::-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input::placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form button {
+    width: 200px;
+    background-color: #33836E;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    transition: all 0.3s ease;
+  }
+  #speciality .wrapper .speciality__question--form form button:hover {
+    background-color: #81d2bc;
+    color: #FFFFFF;
+  }
+  #speciality .wrapper .speciality__question--form-footer {
+    font-size: 12px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question img {
+    width: 220px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    display: none;
+  }
+  #speciality .wrapper .speciality__blog--title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 20px;
+  }
+  #speciality .wrapper .speciality__blog--text {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    line-height: 25.6px;
+    margin-bottom: 30px;
+  }
+  #speciality .wrapper .speciality__blog--text span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  #speciality .wrapper .speciality__blog--link {
+    background-color: #E0ECE9;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #33836E;
+    text-transform: none;
+    padding: 15px 0;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  #speciality .wrapper .speciality__blog--link:hover {
+    background-color: #33836E;
+    color: #FFFFFF;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #speciality {
+    width: 100%;
+    margin-top: 80px;
+  }
+  #speciality .wrapper .speciality__title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 30px;
+  }
+  #speciality .wrapper .speciality__cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    margin-bottom: 80px;
+  }
+  #speciality .wrapper .speciality__card {
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+  }
+  #speciality .wrapper .speciality__card--header {
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    -webkit-text-decoration-color: #016f52;
+            text-decoration-color: #016f52;
+    text-underline-position: under;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 15px;
+       -moz-column-gap: 15px;
+            column-gap: 15px;
+    margin-bottom: 10px;
+  }
+  #speciality .wrapper .speciality__card--text {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    line-height: 21px;
+  }
+  #speciality .wrapper .speciality__question {
+    padding: 20px;
+    height: 200px;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 80px;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+  }
+  #speciality .wrapper .speciality__question--title {
+    font-size: 25px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    width: 250px;
+  }
+  #speciality .wrapper .speciality__question--form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 15px;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
+    margin-bottom: 15px;
+  }
+  #speciality .wrapper .speciality__question--form form .form-label__wrapper {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 16px;
+    border: 1px solid #e5e5e5;
+  }
+  #speciality .wrapper .speciality__question--form form p {
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #e5e5e5;
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #speciality .wrapper .speciality__question--form form input {
+    width: 100%;
+  }
+  #speciality .wrapper .speciality__question--form form input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input::-moz-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input:-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input::-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input::placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form button {
+    padding: 15px 0;
+    width: 100%;
+    background-color: #33836E;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    transition: all 0.3s ease;
+  }
+  #speciality .wrapper .speciality__question--form form button:hover {
+    background-color: #81d2bc;
+    color: #FFFFFF;
+  }
+  #speciality .wrapper .speciality__question--form-footer {
+    font-size: 12px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question img {
+    width: 220px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    display: none;
+  }
+  #speciality .wrapper .speciality__blog--title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 20px;
+  }
+  #speciality .wrapper .speciality__blog--text {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    line-height: 25.6px;
+    margin-bottom: 30px;
+  }
+  #speciality .wrapper .speciality__blog--text span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  #speciality .wrapper .speciality__blog--link {
+    background-color: #E0ECE9;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #33836E;
+    text-transform: none;
+    padding: 15px 0;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  #speciality .wrapper .speciality__blog--link:hover {
+    background-color: #33836E;
+    color: #FFFFFF;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #speciality {
+    width: 100%;
+    margin-top: 40px;
+  }
+  #speciality .wrapper .speciality__title {
+    font-size: 20px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 30px;
+  }
+  #speciality .wrapper .speciality__cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+  #speciality .wrapper .speciality__card {
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+  }
+  #speciality .wrapper .speciality__card--header {
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    -webkit-text-decoration-color: #016f52;
+            text-decoration-color: #016f52;
+    text-underline-position: under;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 15px;
+       -moz-column-gap: 15px;
+            column-gap: 15px;
+    margin-bottom: 10px;
+  }
+  #speciality .wrapper .speciality__card--text {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    line-height: 21px;
+  }
+  #speciality .wrapper .speciality__question {
+    padding: 20px;
+    padding-bottom: 0px;
+    height: auto;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 15px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 40px;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+  }
+  #speciality .wrapper .speciality__question--title {
+    font-size: 24px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    width: 250px;
+  }
+  #speciality .wrapper .speciality__question--form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 15px;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
+    margin-bottom: 15px;
+  }
+  #speciality .wrapper .speciality__question--form form .form-label__wrapper {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 16px;
+    border: 1px solid #e5e5e5;
+  }
+  #speciality .wrapper .speciality__question--form form p {
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #e5e5e5;
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #speciality .wrapper .speciality__question--form form input {
+    width: 100%;
+  }
+  #speciality .wrapper .speciality__question--form form input::-webkit-input-placeholder {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input::-moz-placeholder {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input:-ms-input-placeholder {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input::-ms-input-placeholder {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form input::placeholder {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question--form form button {
+    padding: 15px 0;
+    width: 100%;
+    background-color: #33836E;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 14px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    transition: all 0.3s ease;
+  }
+  #speciality .wrapper .speciality__question--form form button:hover {
+    background-color: #81d2bc;
+    color: #FFFFFF;
+  }
+  #speciality .wrapper .speciality__question--form-footer {
+    font-size: 12px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: none;
+  }
+  #speciality .wrapper .speciality__question img {
+    width: 100%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    display: block;
+  }
+  #speciality .wrapper .speciality__blog--title {
+    font-size: 20px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.6px;
+    margin-bottom: 10px;
+  }
+  #speciality .wrapper .speciality__blog--text {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    line-height: 22.4px;
+    margin-bottom: 30px;
+  }
+  #speciality .wrapper .speciality__blog--text span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  #speciality .wrapper .speciality__blog--link {
+    background-color: #E0ECE9;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #33836E;
+    text-transform: none;
+    padding: 15px 0;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  #speciality .wrapper .speciality__blog--link:hover {
+    background-color: #33836E;
+    color: #FFFFFF;
+  }
+}
+#comments {
+  width: 100%;
+  margin-top: 80px;
+}
+#comments .wrapper .comments__title {
+  font-size: 32px;
+  font-family: "OpenSans-Bold", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  letter-spacing: -0.96px;
+  margin-bottom: 30px;
+}
+#comments .wrapper .comments__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#comments .wrapper .comments__card {
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  padding: 30px;
+  width: 367px;
+  height: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#comments .wrapper .comments__card--header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#comments .wrapper .comments__card--header-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+  margin-bottom: 24px;
+}
+#comments .wrapper .comments__card--header-info .name {
+  font-size: 18px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  margin-bottom: 5px;
+}
+#comments .wrapper .comments__card--header-info .date {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #e5e5e5;
+  text-transform: none;
+}
+#comments .wrapper .comments__card--header-text {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  line-height: 25.6px;
+}
+#comments .wrapper .comments__card--footer .question {
+  font-size: 14px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: rgba(47, 43, 67, 0.5);
+  text-transform: none;
+  margin-bottom: 5px;
+}
+#comments .wrapper .comments__card--footer .question-text {
+  font-size: 16px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  color: #33836E;
+  text-transform: none;
+  line-height: 24px;
+}
+
+#portal {
+  width: 100%;
+  margin-top: 80px;
+}
+#portal .wrapper .portal__title {
+  font-size: 32px;
+  font-family: "OpenSans-Bold", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  letter-spacing: -0.96px;
+  margin-bottom: 30px;
+}
+#portal .wrapper .portal__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+#portal .wrapper .portal__content .portal-lawyers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  row-gap: 10px;
+}
+#portal .wrapper .portal__content .portal-lawyers .portal-lawyers__persons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+#portal .wrapper .portal__content .portal-lawyers .portal-lawyer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  width: 460px;
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+}
+#portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--name {
+  font-size: 18px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  margin-bottom: 5px;
+}
+#portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--job {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  margin-bottom: 5px;
+}
+#portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--result {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: rgba(47, 43, 67, 0.5);
+  text-transform: none;
+}
+#portal .wrapper .portal__content--link {
+  font-size: 16px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  color: #33836E;
+  text-transform: none;
+  border-radius: 10px;
+  background-color: #E0ECE9;
+  padding: 15px 0;
+  text-align: center;
+}
+#portal .wrapper .portal__content .ask-question {
+  border-radius: 20px;
+  width: 100%;
+  background-color: #33836E;
+  padding: 40px;
+  position: relative;
+}
+#portal .wrapper .portal__content .ask-question__title {
+  font-size: 32px;
+  font-family: "OpenSans-Bold", sans-serif;
+  color: #FFFFFF;
+  text-transform: none;
+  letter-spacing: -0.96px;
+  margin-bottom: 5px;
+}
+#portal .wrapper .portal__content .ask-question__reply {
+  font-size: 18px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #FFFFFF;
+  text-transform: none;
+  margin-bottom: 30px;
+}
+#portal .wrapper .portal__content .ask-question .online {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 5px 16px 6px 16px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+#portal .wrapper .portal__content .ask-question .online::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #33836E;
+  display: inline-block;
+  margin-right: 5px;
+}
+#portal .wrapper .portal__content .ask-question form {
+  margin-bottom: 15px;
+}
+#portal .wrapper .portal__content .ask-question form textarea {
+  width: 577px;
+  height: 213px;
+  padding: 12px 16px;
+  text-align: start;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  margin-bottom: 20px;
+}
+#portal .wrapper .portal__content .ask-question form .form-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#portal .wrapper .portal__content .ask-question form .form-input label {
+  background-color: #FFFFFF;
+  width: 205px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+#portal .wrapper .portal__content .ask-question form .form-input label p {
+  font-size: 12px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: rgba(47, 43, 67, 0.4);
+  text-transform: none;
+  margin-bottom: 5px;
+}
+#portal .wrapper .portal__content .ask-question form .form-input label input::-webkit-input-placeholder {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #000000;
+  text-transform: none;
+}
+#portal .wrapper .portal__content .ask-question form .form-input label input::-moz-placeholder {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #000000;
+  text-transform: none;
+}
+#portal .wrapper .portal__content .ask-question form .form-input label input:-ms-input-placeholder {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #000000;
+  text-transform: none;
+}
+#portal .wrapper .portal__content .ask-question form .form-input label input::-ms-input-placeholder {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #000000;
+  text-transform: none;
+}
+#portal .wrapper .portal__content .ask-question form .form-input label input::placeholder {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #000000;
+  text-transform: none;
+}
+#portal .wrapper .portal__content .ask-question form .form-input button {
+  background-color: #140A32;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  color: #FFFFFF;
+  text-transform: none;
+  padding: 16px 24px;
+}
+#portal .wrapper .portal__content .ask-question__link {
+  font-size: 12px;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: none;
+}
+#portal .wrapper .portal__content .ask-question__time {
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: "OpenSans-Bold", sans-serif;
+  color: #FFFFFF;
+  text-transform: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+  letter-spacing: -0.6px;
+  margin-bottom: 10px;
+}
+#portal .wrapper .portal__content .ask-question__result {
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #FFFFFF;
+  text-transform: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #portal {
+    width: 100%;
+    margin-top: 80px;
+  }
+  #portal .wrapper .portal__title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 30px;
+  }
+  #portal .wrapper .portal__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    row-gap: 10px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyers__persons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100%;
+    gap: 10px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    width: 360px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--name {
+    font-size: 18px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--job {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--result {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: rgba(47, 43, 67, 0.5);
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content--link {
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #33836E;
+    text-transform: none;
+    border-radius: 10px;
+    background-color: #E0ECE9;
+    padding: 15px 0;
+    text-align: center;
+  }
+  #portal .wrapper .portal__content .ask-question {
+    border-radius: 20px;
+    width: 100%;
+    background-color: #33836E;
+    padding: 40px;
+    position: relative;
+  }
+  #portal .wrapper .portal__content .ask-question__title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .ask-question__reply {
+    font-size: 18px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    margin-bottom: 30px;
+  }
+  #portal .wrapper .portal__content .ask-question .online {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px 16px 6px 16px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+  #portal .wrapper .portal__content .ask-question .online::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #33836E;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  #portal .wrapper .portal__content .ask-question form {
+    margin-bottom: 15px;
+  }
+  #portal .wrapper .portal__content .ask-question form textarea {
+    width: 100%;
+    height: 213px;
+    padding: 12px 16px;
+    text-align: start;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label {
+    background-color: #FFFFFF;
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label p {
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: rgba(47, 43, 67, 0.4);
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::-moz-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input:-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input button {
+    background-color: #140A32;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    padding: 16px 24px;
+  }
+  #portal .wrapper .portal__content .ask-question__link {
+    font-size: 12px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question__time {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px;
+    letter-spacing: -0.6px;
+    margin-bottom: 10px;
+  }
+  #portal .wrapper .portal__content .ask-question__result {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #portal {
+    width: 100%;
+    margin-top: 80px;
+  }
+  #portal .wrapper .portal__title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 30px;
+  }
+  #portal .wrapper .portal__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    row-gap: 10px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyers__persons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100%;
+    gap: 10px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--name {
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--job {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--result {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: rgba(47, 43, 67, 0.5);
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content--link {
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #33836E;
+    text-transform: none;
+    border-radius: 10px;
+    background-color: #E0ECE9;
+    padding: 15px 0;
+    text-align: center;
+  }
+  #portal .wrapper .portal__content .ask-question {
+    border-radius: 20px;
+    width: 100%;
+    background-color: #33836E;
+    padding: 40px;
+    position: relative;
+  }
+  #portal .wrapper .portal__content .ask-question__title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .ask-question__reply {
+    font-size: 18px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    margin-bottom: 30px;
+  }
+  #portal .wrapper .portal__content .ask-question .online {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px 16px 6px 16px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+  #portal .wrapper .portal__content .ask-question .online::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #33836E;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  #portal .wrapper .portal__content .ask-question form {
+    margin-bottom: 15px;
+  }
+  #portal .wrapper .portal__content .ask-question form textarea {
+    width: 100%;
+    height: 213px;
+    padding: 12px 16px;
+    text-align: start;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label {
+    background-color: #FFFFFF;
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label p {
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: rgba(47, 43, 67, 0.4);
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::-moz-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input:-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input button {
+    background-color: #140A32;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    padding: 16px 24px;
+  }
+  #portal .wrapper .portal__content .ask-question__link {
+    font-size: 12px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question__time {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px;
+    letter-spacing: -0.6px;
+    margin-bottom: 10px;
+  }
+  #portal .wrapper .portal__content .ask-question__result {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  #portal {
+    width: 100%;
+    margin-top: 80px;
+  }
+  #portal .wrapper .portal__title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 30px;
+  }
+  #portal .wrapper .portal__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    row-gap: 10px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyers__persons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    height: 100%;
+    gap: 10px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--name {
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--job {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--result {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: rgba(47, 43, 67, 0.5);
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content--link {
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #33836E;
+    text-transform: none;
+    border-radius: 10px;
+    background-color: #E0ECE9;
+    padding: 15px 0;
+    text-align: center;
+  }
+  #portal .wrapper .portal__content .ask-question {
+    border-radius: 20px;
+    width: 100%;
+    background-color: #33836E;
+    padding: 40px;
+    position: relative;
+  }
+  #portal .wrapper .portal__content .ask-question__title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .ask-question__reply {
+    font-size: 18px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    margin-bottom: 30px;
+  }
+  #portal .wrapper .portal__content .ask-question .online {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px 16px 6px 16px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+  #portal .wrapper .portal__content .ask-question .online::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #33836E;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  #portal .wrapper .portal__content .ask-question form {
+    margin-bottom: 15px;
+  }
+  #portal .wrapper .portal__content .ask-question form textarea {
+    width: 100%;
+    height: 213px;
+    padding: 12px 16px;
+    text-align: start;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label {
+    background-color: #FFFFFF;
+    width: 200px;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label p {
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: rgba(47, 43, 67, 0.4);
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::-moz-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input:-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input button {
+    background-color: #140A32;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    padding: 16px 24px;
+  }
+  #portal .wrapper .portal__content .ask-question__link {
+    font-size: 12px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question__time {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px;
+    letter-spacing: -0.6px;
+    margin-bottom: 10px;
+  }
+  #portal .wrapper .portal__content .ask-question__result {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #portal {
+    width: 100%;
+    margin-top: 40px;
+  }
+  #portal .wrapper .portal__title {
+    font-size: 20px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.6px;
+    margin-bottom: 20px;
+  }
+  #portal .wrapper .portal__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 10px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    row-gap: 10px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyers__persons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    height: 100%;
+    gap: 10px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--name {
+    font-size: 14px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--job {
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .portal-lawyers .portal-lawyer__info--result {
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: rgba(47, 43, 67, 0.5);
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content--link {
+    font-size: 14px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #33836E;
+    text-transform: none;
+    border-radius: 10px;
+    background-color: #E0ECE9;
+    padding: 15px 0;
+    text-align: center;
+  }
+  #portal .wrapper .portal__content .ask-question {
+    border-radius: 20px;
+    width: 100%;
+    background-color: #33836E;
+    padding: 20px;
+    position: relative;
+  }
+  #portal .wrapper .portal__content .ask-question__title {
+    font-size: 20px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 5px;
+    margin-top: 60px;
+  }
+  #portal .wrapper .portal__content .ask-question__reply {
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    margin-bottom: 15px;
+  }
+  #portal .wrapper .portal__content .ask-question .online {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px 16px 6px 16px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #portal .wrapper .portal__content .ask-question .online::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #33836E;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  #portal .wrapper .portal__content .ask-question form {
+    margin-bottom: 15px;
+  }
+  #portal .wrapper .portal__content .ask-question form textarea {
+    width: 100%;
+    height: 213px;
+    padding: 12px 16px;
+    text-align: start;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 15px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label p {
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: rgba(47, 43, 67, 0.4);
+    text-transform: none;
+    margin-bottom: 5px;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::-moz-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input:-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::-ms-input-placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input label input::placeholder {
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #000000;
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question form .form-input button {
+    width: 100%;
+    background-color: #140A32;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    padding: 16px 24px;
+  }
+  #portal .wrapper .portal__content .ask-question__link {
+    font-size: 12px;
+    font-family: "OpenSans-SemiBold", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: none;
+  }
+  #portal .wrapper .portal__content .ask-question__time {
+    margin-top: 16px;
+    font-size: 20px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px;
+    letter-spacing: -0.48px;
+    margin-bottom: 10px;
+  }
+  #portal .wrapper .portal__content .ask-question__result {
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #FFFFFF;
+    text-transform: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px;
+  }
+}
+footer {
+  margin-top: 80px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+footer .wrapper .footer__title {
+  font-size: 32px;
+  font-family: "OpenSans-Bold", sans-serif;
+  color: #140A32;
+  text-transform: none;
+  letter-spacing: -0.96px;
+  margin-bottom: 40px;
+}
+footer .wrapper .footer__cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(270px, 1fr));
+  row-gap: 40px;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .wrapper .footer__cards li {
+  font-size: 24px;
+  font-family: "OpenSans-Bold", sans-serif;
+  color: #140A32;
+  text-transform: none;
+}
+footer .wrapper .footer__cards li a {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+  font-family: "OpenSans-Regular", sans-serif;
+  color: #140A32;
+  text-transform: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  footer {
+    margin-top: 80px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  footer .wrapper .footer__title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 40px;
+  }
+  footer .wrapper .footer__cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(270px, 1fr));
+    row-gap: 40px;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer .wrapper .footer__cards li {
+    font-size: 24px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  footer .wrapper .footer__cards li a {
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+}
+@media only screen and (max-width: 850px) {
+  footer {
+    margin-top: 70px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  footer .wrapper .footer__title {
+    font-size: 32px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.96px;
+    margin-bottom: 40px;
+  }
+  footer .wrapper .footer__cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(270px, 1fr));
+    row-gap: 40px;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+  }
+  footer .wrapper .footer__cards li {
+    font-size: 24px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  footer .wrapper .footer__cards li a {
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+}
+@media only screen and (max-width: 580px) {
+  footer {
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  footer .wrapper .footer__title {
+    font-size: 20px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+    letter-spacing: -0.6px;
+    margin-bottom: 30px;
+  }
+  footer .wrapper .footer__cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 20px;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+  }
+  footer .wrapper .footer__cards li {
+    font-size: 18px;
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #140A32;
+    text-transform: none;
+  }
+  footer .wrapper .footer__cards li a {
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #140A32;
     text-transform: none;
   }
 }/*# sourceMappingURL=main.css.map */
