@@ -129,6 +129,7 @@
                     }
                     p{
                         @include font-style(12px, $ff-OpenSansRegular, $primary-grey); 
+                        
                     }
                 }
     
@@ -208,7 +209,8 @@
                     flex-direction: column;
                     justify-content: space-around;
                     a{
-                        @include font-style(24px, $ff-OpenSansBold, $primary-green); 
+                        @include font-style(20px, $ff-OpenSansBold, $primary-green); 
+                        
                     }
                     p{
                         @include font-style(12px, $ff-OpenSansRegular, $primary-grey); 
@@ -293,7 +295,7 @@
                     flex-direction: column;
                     justify-content: space-around;
                     a{
-                        @include font-style(24px, $ff-OpenSansBold, $primary-green); 
+                        @include font-style(20px, $ff-OpenSansBold, $primary-green); 
                     }
                     p{
                         @include font-style(12px, $ff-OpenSansRegular, $primary-grey); 
