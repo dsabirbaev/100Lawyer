@@ -4,6 +4,8 @@
     margin-top: 80px;
 
     .wrapper{
+        position: relative;
+        
         .comments__title{
             @include font-style(32px, $ff-OpenSansBold, $primary-black);
             letter-spacing: -0.96px;
@@ -57,6 +59,22 @@
                     line-height: 24px;
                 }
             }
+        }
+
+        #right , #left{
+            position: absolute;
+            z-index: 999999999;
+            top:45%;
+           
+            cursor: pointer;
+        }
+        
+        #left{
+            left: -50px;
+        }
+        
+        #right{
+            right: -50px;
         }
     }
 }

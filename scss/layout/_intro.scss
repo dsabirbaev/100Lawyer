@@ -45,6 +45,7 @@
                 justify-content: center;
                 background-color: $color-green;
                 border-radius: 10px;
+                cursor: pointer;
             }
             &-tel{
                 display: flex;
@@ -331,7 +332,8 @@
 @media only screen and (max-width: 750px){
     #intro{
         width: 100%;
-        margin-top: 100px;
+        margin-top: 45px;
+        
         .wrapper{
             display: flex;
             justify-content: space-between;
@@ -421,4 +423,100 @@
         }
     }
 }
+
+@media only screen and (max-width: 550px){
+    #intro{
+        width: 100%;
+        margin-top: 105px;
+        
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .intro-body{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    
+        .intro__content{
+            width: 100%;
+            &--link{
+                @include font-style(12px, $ff-OpenSansRegular, $primary-grey);
+                margin-bottom: 20px;
+                display: block;
+            }
+            &--title{
+                @include font-style(22px, $ff-OpenSansBold, $primary-black);
+                letter-spacing: -0.66px;
+                text-align: center;
+            }
+            &--text{
+                @include font-style(14px, $ff-OpenSansRegular, $primary-black);
+                line-height: 25.6px;
+                width: 100%;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+            &--connect{
+                display: flex;
+                column-gap: 0px;
+                row-gap: 20px;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 40px;
+                width: 100%;
+                
+                &-text{
+                   
+                    @include font-style(16px, $ff-OpenSansSemiBold, $color-white);
+                    width: 100%;
+                    padding: 16px 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: $color-green;
+                    border-radius: 10px;
+                }
+                &-tel{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    a{
+                        @include font-style(24px, $ff-OpenSansBold, $primary-green); 
+                    }
+                    p{
+                        @include font-style(12px, $ff-OpenSansRegular, $primary-grey); 
+                    }
+                }
+    
+            }
+            &--cards{
+                display: flex;
+                column-gap: 30px;
+                row-gap: 20px;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+            &--card{
+                @include font-style(16px, $ff-OpenSansRegular, $primary-black);  
+                display: flex;
+                align-items: center;
+                column-gap: 10px;
+            }
+        }
+    
+        .intro__img{
+            width: 250px;
+            height: 250px;
+            order: -1;
+        }
+    }
+}
+
 

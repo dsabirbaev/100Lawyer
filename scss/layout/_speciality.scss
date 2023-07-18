@@ -415,7 +415,7 @@
 @media only screen and (max-width: 800px){
     #speciality{
         width: 100%;
-        margin-top: 80px;
+        margin-top: 60px;
         .wrapper{
             .speciality__title{
                 @include font-style(32px, $ff-OpenSansBold, $primary-black);
@@ -423,12 +423,14 @@
                 margin-bottom: 30px;
             }
             .speciality__cards{
-                display: grid;
+                display: flex;
                 grid-template-columns: repeat(2, minmax(0, 1fr));
                 gap: 20px;
                 margin-bottom: 80px;
+                overflow-x: scroll;
             }
             .speciality__card{
+                min-width: 450px;
                 padding: 20px;
                 border-radius: 20px;
                 border: 1px solid $primary-grey;
@@ -563,21 +565,21 @@
         .wrapper{
             .speciality__title{
                 @include font-style(20px, $ff-OpenSansBold, $primary-black);
-                letter-spacing: -0.96px;
-                margin-bottom: 30px;
+                letter-spacing: -0.6px;
+                margin-bottom: 20px;
             }
             .speciality__cards{
-                display: grid;
-                grid-template-columns: repeat(2, minmax(0, 1fr));
+                display: flex;
                 gap: 20px;
                 margin-bottom: 60px;
             }
             .speciality__card{
+                min-width: 320px;
                 padding: 20px;
                 border-radius: 20px;
                 border: 1px solid $primary-grey;
                &--header{
-                    @include font-style(16px, $ff-OpenSansSemiBold, $primary-black);  
+                    @include font-style(14px, $ff-OpenSansSemiBold, $primary-black);  
                     text-decoration: underline;
                     text-decoration-thickness: 2px;
                     text-decoration-color: $primary-green;  
@@ -588,8 +590,8 @@
                     margin-bottom: 10px;
                }
                &--text{
-                    @include font-style(14px, $ff-OpenSansRegular, $primary-black);  
-                    line-height: 21px;
+                    @include font-style(12px, $ff-OpenSansRegular, $primary-black);  
+                    line-height: 18px;
                 }
             }
     
