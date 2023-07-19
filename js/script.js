@@ -135,3 +135,22 @@ const swiper = new Swiper('.swiper', {
     }
    
 });
+
+
+////////////// Loader //////////////////////
+
+
+function loader(){
+   
+    document.body.style.cssText = "overflow: hidden"
+    setTimeout(() => {
+        $('.loader-wrapper').style.cssText = "display: none"
+     
+    }, 3000)
+}
+
+window.addEventListener('load', loader)
+
+
+
+
