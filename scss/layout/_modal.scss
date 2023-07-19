@@ -68,6 +68,16 @@
                     border-radius: 10px;
                     @include font-style(16px, $ff-OpenSansSemiBold, $color-white);
                     padding: 16px 24px;
+                    transition: all 0.3s ease-in-out;
+                    &:hover{
+                        background-color: $color-white;
+                        color: $color-black;
+                        border: 1px solid $color-green
+                    }
+                    &:active{
+                        background-color: $primary-blue;
+                        color: $color-white
+                    }
                 }
             }
             &--link{

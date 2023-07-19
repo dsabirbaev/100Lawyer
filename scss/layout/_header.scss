@@ -54,7 +54,10 @@ header {
                     background-color: $primary-white-green;
                     transition: all 0.3s ease;
                 }
-
+                &:active{
+                    background-color: $primary-green;
+                    transition: all 0.3s ease;
+                }
             }
 
             &__tel {

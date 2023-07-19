@@ -509,6 +509,17 @@ body {
   color: #FFFFFF;
   text-transform: none;
   padding: 16px 24px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.modal-content .form__modal .modal-content__body form button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #33836E;
+}
+.modal-content .form__modal .modal-content__body form button:active {
+  background-color: #1c77a4;
+  color: #FFFFFF;
 }
 .modal-content .form__modal .modal-content__body--link {
   font-size: 12px;
@@ -871,6 +882,11 @@ header .header-up .nav__question {
 }
 header .header-up .nav__question:hover {
   background-color: #81d2bc;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+header .header-up .nav__question:active {
+  background-color: #016f52;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -2665,6 +2681,16 @@ header .header-down .wrapper .header__user--link {
   background-color: #33836E;
   border-radius: 10px;
   cursor: pointer;
+}
+#intro .intro__content--connect-text:hover {
+  background-color: #81d2bc;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#intro .intro__content--connect-text:active {
+  background-color: #016f52;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 #intro .intro__content--connect-tel {
   display: -webkit-box;
@@ -7648,6 +7674,16 @@ header .header-down .wrapper .header__user--link {
   color: #FFFFFF;
   text-transform: none;
   padding: 16px 24px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#portal .wrapper .portal__content .ask-question form .form-input button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+#portal .wrapper .portal__content .ask-question form .form-input button:active {
+  background-color: #1c77a4;
+  color: #FFFFFF;
 }
 #portal .wrapper .portal__content .ask-question__link {
   font-size: 12px;
