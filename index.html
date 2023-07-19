@@ -10,6 +10,8 @@
     <meta name="theme-color" content="#ffff">
     <!-- favicon.icon -->
     <link rel="icon" href="./assets/icons/logo-favicon.png">
+    <!-- swiper carousel -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <!-- main css -->
     <link rel="stylesheet" href="./css/main.min.css">
 
@@ -17,6 +19,7 @@
 
 <body>
 
+    <!-- modal window -->
     <div class="modal-wrapper hidden">
         <div class="modal-content">
             <div class="form__modal">
@@ -31,31 +34,32 @@
                     <form id="post">
                         <label for="tel">
                             <p>Номер телефона</p>
-                            <input type="tel" id="tel" name="tel-number" placeholder="+7 963 335-87-52"
-                                required>
+                            <input type="tel" id="tel" name="tel-number" placeholder="+7 963 335-87-52" required>
                         </label>
                         <label for="fname">
                             <p>Ваше имя</p>
-                            <input type="text" id="fname" name="name-user" placeholder="Александр Сергеевич"
-                                required>
+                            <input type="text" id="fname" name="name-user" placeholder="Александр Сергеевич" required>
                         </label>
-                        <button type="submit">Отправить</button> 
+                        <button type="submit">Отправить</button>
                     </form>
-                    <a class="modal-content__body--link" href="#">Отправляя вопрос, вы соглашаетесь с условиями Пользовательского соглашения</a>
+                    <a class="modal-content__body--link" href="#">Отправляя вопрос, вы соглашаетесь с условиями
+                        Пользовательского соглашения</a>
                 </div>
-        </div>
+            </div>
 
 
-        <div class="success__modal hide">
-            <span id="exit"><img src="./assets/icons/close.svg" alt="close"></span>
-            <img class="modal-content__checked" src="./assets/icons/checked.svg" alt="checked">
-            <p class="modal-content__title">Спасибо, ваша заявка принята</p>
-            <p class="modal-content__text">Мы свяжемся с вами в течение х минут</p>
-            <button class="modal-content__btn" type="submit">Закрыть окно</button>
-        </div>
+            <div class="success__modal hide">
+                <span id="exit"><img src="./assets/icons/close.svg" alt="close"></span>
+                <img class="modal-content__checked" src="./assets/icons/checked.svg" alt="checked">
+                <p class="modal-content__title">Спасибо, ваша заявка принята</p>
+                <p class="modal-content__text">Мы свяжемся с вами в течение х минут</p>
+                <button class="modal-content__btn" type="submit">Закрыть окно</button>
+            </div>
         </div>
     </div>
 
+
+    <!-- header section -->
     <header>
 
         <div class="header-up">
@@ -106,6 +110,7 @@
         </div>
     </header>
 
+    <!-- main section -->
     <main>
         <section id="intro">
             <div class="container">
@@ -468,10 +473,10 @@
 
         <section id="comments">
             <div class="container">
-                <div class="wrapper slide_list">
+                <div class="wrapper swiper">
                     <h2 class="comments__title">Отзывы наших клиентов</h2>
-                    <div class="comments__cards">
-                        <div class="comments__card">
+                    <div class="comments__cards swiper-wrapper">
+                        <div class="comments__card swiper-slide">
                             <div class="comments__card--header">
                                 <div class="comments__card--header-info">
                                     <img src="./assets/icons/comment.svg" alt="comment">
@@ -490,7 +495,7 @@
                             </div>
                         </div>
 
-                        <div class="comments__card">
+                        <div class="comments__card swiper-slide">
                             <div class="comments__card--header">
                                 <div class="comments__card--header-info">
                                     <img src="./assets/icons/comment.svg" alt="comment">
@@ -509,7 +514,7 @@
                             </div>
                         </div>
 
-                        <div class="comments__card">
+                        <div class="comments__card swiper-slide">
                             <div class="comments__card--header">
                                 <div class="comments__card--header-info">
                                     <img src="./assets/icons/comment.svg" alt="comment">
@@ -528,16 +533,45 @@
                             </div>
                         </div>
 
-                        
+                         <div class="comments__card swiper-slide">
+                            <div class="comments__card--header">
+                                <div class="comments__card--header-info">
+                                    <img src="./assets/icons/comment.svg" alt="comment">
+                                    <div class="comments__card--header-user">
+                                        <p class="name">Вадим</p>
+                                        <p class="date">02 июля 2023</p>
+                                    </div>
+                                </div>
+                                <p class="comments__card--header-text">Хочу поблагодарить Веру Владимировну за оказанную
+                                    мне помощь, объяснила что да как,
+                                    на душе стало намного легче</p>
+                            </div>
+                            <div class="comments__card--footer">
+                                <p class="question">Вопрос:</p>
+                                <p class="question-text">Заберут ли меня в случае общей мобилизации на войну если я</p>
+                            </div>
+                        </div>
+                        <div class="comments__card swiper-slide">
+                            <div class="comments__card--header">
+                                <div class="comments__card--header-info">
+                                    <img src="./assets/icons/comment.svg" alt="comment">
+                                    <div class="comments__card--header-user">
+                                        <p class="name">Вадим</p>
+                                        <p class="date">02 июля 2023</p>
+                                    </div>
+                                </div>
+                                <p class="comments__card--header-text">Хочу поблагодарить Веру Владимировну за оказанную
+                                    мне помощь, объяснила что да как,
+                                    на душе стало намного легче</p>
+                            </div>
+                            <div class="comments__card--footer">
+                                <p class="question">Вопрос:</p>
+                                <p class="question-text">Заберут ли меня в случае общей мобилизации на войну если я</p>
+                            </div>
+                        </div>
                     </div>
-
-                    <span id="left">
-                        <img src="./assets/icons/left.svg" alt="left">
-                    </span>
-                
-                    <span id="right">
-                        <img src="./assets/icons/right.svg" alt="right">
-                    </span>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </section>
@@ -612,15 +646,17 @@
                             </form>
                             <a class="ask-question__link" href="#">Отправляя вопрос, вы соглашаетесь с условиями
                                 Пользовательского соглашения</a>
-                                <div class="ask-question__time"><span>48 юристов</span> <span>10 минут</span></div>
-                                <div class="ask-question__result"><span>сейчас онлайн</span> <span>средняя скорость
-                                        ответа</span></div>
+                            <div class="ask-question__time"><span>48 юристов</span> <span>10 минут</span></div>
+                            <div class="ask-question__result"><span>сейчас онлайн</span> <span>средняя скорость
+                                    ответа</span></div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <!-- footer section -->
     <footer>
         <div class="container">
             <div class="wrapper">
@@ -680,6 +716,9 @@
     </footer>
 </body>
 
+<!-- swiper carousel -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!-- js scripts -->
 <script src="./js/utils.js"></script>
 <script src="./js/script.js"></script>
 
