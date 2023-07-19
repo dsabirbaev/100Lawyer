@@ -146,7 +146,7 @@ function loader(){
     setTimeout(() => {
         $('.loader-wrapper').style.cssText = "display: none"
      
-    }, 3000)
+    }, 2000)
 }
 
 window.addEventListener('load', loader)
