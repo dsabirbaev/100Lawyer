@@ -145,7 +145,7 @@ function loader(){
     document.body.style.cssText = "overflow: hidden"
     setTimeout(() => {
         $('.loader-wrapper').style.cssText = "display: none"
-     
+        document.body.style.cssText = "overflow: auto"
     }, 2000)
 }
 
