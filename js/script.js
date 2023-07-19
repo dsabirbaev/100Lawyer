@@ -1,7 +1,8 @@
+
+
+//////// Modal window
+
 const baseURL = "https://64af0de7c85640541d4e191b.mockapi.io/sneakers";
-
-
-
 
 function createPost() {
     const newPost = {
@@ -89,7 +90,7 @@ window.addEventListener('click', (e) => {
 /////////// Menu humburger  ///////////////////
 
 
-let navList = document.querySelector('.header-down'),
+let navList = document.querySelector('.hamburger-menu'),
     navMenu = document.querySelector(".menu-btn");
 
 navMenu.addEventListener('click', () => {
